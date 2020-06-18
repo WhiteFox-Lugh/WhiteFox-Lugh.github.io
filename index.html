@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/avantui.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/avantui.js"></script>
   </head>
   <body>
 
     <!-- navbar-->
-    <nav class="navbar navbar-expand-lg main-navbar navbar-dark bg-gradient-deep-purple mb-4 shadow">
+    <nav class="navbar navbar-expand-sm main-navbar navbar-dark bg-gradient-deep-purple mb-4 shadow-lg fixed-top">
       <a id="logo" class="navbar-brand" href="#">Whitefox's page</a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
@@ -24,18 +27,18 @@
             <a class="nav-link" href="https://www.pixiv.net/users/2400215">pixiv</a>
           </li>
           <li>
-            <a class="nav-link" href="https://twitter.com/Arthur_Lugh">Twitter</a>
+            <a class="nav-link" href="https://github.com/WhiteFox-Lugh">GitHub</a>
           </li>
           <li>
-            <a class="nav-link" href="https://github.com/WhiteFox-Lugh">GitHub</a>
+            <a class="nav-link" href="https://twitter.com/Arthur_Lugh">Twitter(@Arthur_Lugh)</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <!-- main content -->
-    <div class="container-fluid">
-      <div class="card shadow-sm" style="border-color: rgba(0, 0, 0, 0.8); background-color: rgba(0, 0, 0, 0.8);">
+    <div class="container-fluid pl-5 pr-5 pb-5" style="margin-top: 100px">
+      <div class="card shadow-sm" style="border-color: rgba(255, 255, 255, 0.85); background-color: rgba(0, 0, 0, 0.85);">
         <div class="card-body d-flex flex-row align-items-center pb-3">
           <img src="./assets/img/fursona.png" class="img-avatar img-avatar-lg rounded-circle" alt="Avatar image">
           <div class="d-flex flex-column">
@@ -47,26 +50,29 @@
         <h4 class="mb-2">自己紹介</h4>
         <div class="divider divider-dashed mb-3"></div>
         <p>
-          こんにちは。京都大学工学部情報学科卒、現在は京都大学情報学研究科に所属しています。
+          こんにちは。白狐（びゃっこ）と申します。
         </p>
         <p>
-          SNS の分析や、情報検索、UI / UX 関連の分野にとても興味があり、修士1回生ではこれらについての基礎知識を深めつつ、
+          京都大学工学部情報学科卒、現在は京都大学情報学研究科に所属しています。
+        </p>
+        <p>
+          SNS の分析や、情報検索、UI / UX 関連の分野にとても興味があり、
+          修士1回生ではこれらについての基礎知識を深めつつ、
           何か面白い研究ができないかを日々考えております。
         </p>
-        <h4 class="mb-2 mt-5">趣味</h4>
-        <div class="divider divider-dashed mb-3"></div>
 
-        <h5 class="mb-4">情報系</h5>
+        <h4 class="mb-2 mt-5">情報系のこと</h4>
+        <div class="divider divider-dashed mb-3"></div>
         <ul>
           <li>特に好きな分野</li>
           <ul>
-            <li>インタフェース、デザイン</li>
+            <li>ユーザインタフェース、デザイン</li>
             <li>情報検索</li>
             <li>ソーシャルメディア分析</li>
           </ul>
           <li>プログラミング言語</li>
           <ul>
-            <li>Python : 卒業論文でモデル構築を行い実装をした</li>
+            <li>Python : 卒業論文でモデル構築を行い実装をしたり、大学の実習で機械学習ライブラリを弄って画像認識したり</li>
             <li>
               C# : 大学の課題、タイパーアドベントカレンダーで 
               Unity を使ってタイピングゲームを実装（<a href="https://qiita.com/Arthur_Lugh/items/43b61877819e402c50d6">記事</a>）
@@ -77,48 +83,77 @@
             <li class="text-muted">OCaml : 大学の課題で触った程度</li>
             <li class="text-muted">Java : 大学の課題で触った程度</li>
           </ul>
+          <li>卒論 : 競技プログラミングサイト Codeforces において、各タスクの難易度をオフラインに限らず、リアルタイムで推定できる手法を提案</li>
+          <li>修論（進行中） : Twitter におけるユーザインタフェースを軸とした研究を考えています</li>
           <li>学会</li>
           <ul>
             <li>DEIM2020（学部4回生、卒論） : オンラインプレゼンテーション賞</li>
           </ul>
         </ul>
 
-        <h5 class="mt-5 mb-2">タイピング</h5>
+        <h4 class="mb-2 mt-5">公開しているものなど</h4>
+        <div class="divider divider-dashed mb-3"></div>
+
+        <p>少しずつ増やしていきたいと思います。</p>
+
+        <h5 class="mt-5 mb-2">ポートフォリオサイト</h5>
+        <p>
+          今開いているこのページです。ウェブデザインの勉強をするために、ライブラリを拝借しつつ作成しました。
+        </p>
+
+        <h5 class="mt-5 mb-2">タイピングゲームっぽいもの</h5>
+        <p>
+          仮公開: <a href="https://unityroom.com/games/foxtyping" target="_blank">UnityRoom</a>
+        </p>
+        <p>
+          <a href="https://qiita.com/Arthur_Lugh/items/43b61877819e402c50d6">タイパーアドベントカレンダーの記事（Qiita）</a>を作成するときに、
+          勉強がてら実装してみたものです。まだ、未完成部分が多いですが、少しずつ形になるようにしていきたいと思います。
+        </p>
+        <p>
+          Qiita の記事では、ひらがなの文を解析し、ローマ字のセンテンスを生成するアルゴリズムについて、
+          わかりやすく丁寧に解説をしたつもりです。これによって、タイピングゲームの正誤判定の仕組みについて興味を持ってもらえたり、
+          タイピングゲームの実装のハードルの高さを少しでも下げることができていればとてもうれしいです。
+        </p>
+
+        <h5 class="mt-5 mb-2">ブログ</h5>
+        <p>
+          上のメニューの「Blog」よりアクセスできます。
+          読んだ本のまとめ、勉強のまとめ、趣味の記事などを書きました。
+        </p>
+
+        <h5 class="mt-5 mb-2">イラスト</h5>
+        <p>
+          上のメニューの「pixiv」より pixiv の個人ページへアクセスできます。
+          獣系のジャンルや版権ものなどの作品が多いです。
+          アイコン画像やヘッダー画像などもすべて自作のものです。
+        </p>
+
+        <h4 class="mb-2 mt-5">趣味</h4>
+        <div class="divider divider-dashed mb-3"></div>
+
+        <h5 class="mb-2">タイピング</h5>
         <p>
           小学3年生のころからタイピングに本格的に取り組んでおり、小学4年生～高校2年生までは、毎日新聞社主催の「毎日パソコン入力コンクール」に出場していました。
           現在もたまにツイッターにハッシュタグ #WhitefoxTyping をつけて手元動画を上げたり、練習成果を上げたりしています。
         </p>
-        <div class="callout callout-danger mb-5" style="background-color: rgba(196, 85, 85, 0.1);">
+        <div class="callout callout-primary mb-5" style="background-color: rgba(85, 85, 196, 0.1);">
           <h5 class="mb-4">タイピングの実績とか</h5>
           <ul>
-            <li>
-              毎日パソコン入力コンクール全国大会出場歴
-            </li>
+            <li>毎日パソコン入力コンクール全国大会出場歴</li>
             <ul>
-              <li>
-                和文部門：全国大会3位（小学4年）、全国大会2位（小学5年）、全国大会4位（小学6年）、全国大会5位（中学2年）
-              </li>
-              <li>
-                英文部門：全国大会優勝 文部科学大臣賞（中学3年）、全国大会4位（高校2年）
-              </li>
-              <li>
-                なお、本名でググると5chのスレッドが出てきて「プログラムでも組んだ方が役に経つ」「タイピングで人を殺してそう」などと言われていた
-              </li>
+              <li>和文部門：全国大会3位（小学4年）、全国大会2位（小学5年）、全国大会4位（小学6年）、全国大会5位（中学2年）</li>
+              <li>英文部門：全国大会優勝 <span class="text-danger">文部科学大臣賞</span>（中学3年）、全国大会4位（高校2年）</li>
             </ul>
-            <li>
-              e-typing
-            </li>
+            <li>e-typing</li>
             <ul>
-              <li>
-                検定は特級を所持
-              </li>
+              <li>e-typing 検定は特級を所持</li>
               <li>
                 腕試しレベルチェックローマ字最高 703pts. （ランク Jedi、第984回：元気が出る言葉）
-                ー <a href="https://twitter.com/Arthur_Lugh/status/1232723364864655361?s=20">ツイート</a>
+                ー <a href="https://twitter.com/Arthur_Lugh/status/1232723364864655361?s=20">ツイートへのリンク</a>
               </li>
               <li>
                 長文タイピングローマ字最高 819pts. （ランク Joker）
-                ー <a href="https://twitter.com/Arthur_Lugh/status/1180435737746927617?s=20">ツイート</a>
+                ー <a href="https://twitter.com/Arthur_Lugh/status/1180435737746927617?s=20">ツイートへのリンク</a>
               </li>
             </ul>
           </ul>
@@ -126,16 +161,21 @@
             <li>
               寿司打:
               高級一発勝負コース +¥30,320 (102皿, 1961key, miss 0)
-              ー <a href="https://twitter.com/Arthur_Lugh/status/1192378110454296576?s=20">ツイート</a>
+              ー <a href="https://twitter.com/Arthur_Lugh/status/1192378110454296576?s=20">ツイートへのリンク</a>
             </li>
           </ul>
         </div>
+
+        <h5 class="mt-5 mb-2">音楽</h5>
+        <p>
+          吹奏楽部に所属していました。中学生の時はホルン、高校生の時はパーカッションでした。
+          現代音楽が好きです。
+        </p>
+        <p>
+          最近は、楽器を演奏する機会もほぼなくなってしまったので、音ゲーで音楽に触れていることが多いです。
+          作曲にも興味があり、SoundQuest を少し読むなどしましたが、実際に楽曲政策になかなか時間が割けていない状況です。
+        </p>
       </div>
     </div>
-  <!-- scripts -->
-  <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/bootstrap.bundle.js"></script>
-  <script src="./assets/js/avantui.js"></script>
-  <script type="text/javascript" src="./assets/js/script.js"></script>
   </body>
 </html>
