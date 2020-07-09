@@ -1,5 +1,5 @@
 .bg-gradient-deep-purple {
-  background-image: linear-gradient(to right bottom, rgba(60, 65, 139, 0.9), rgba(35, 14, 88, 0.9), rgba(88, 14, 39, 0.9)) !important;
+  background-image: linear-gradient(to right bottom, rgba(60, 65, 139, 0.85), rgba(35, 14, 88, 0.85), rgba(88, 14, 39, 0.85)) !important;
 }
 
 body {
